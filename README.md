@@ -36,6 +36,7 @@ src/
 │ └── usePhotos.ts # Fotoğraf verisini çeken özel hook
 ├── pages/
 │ └── Home.tsx # Uygulama ana sayfası
+│ └── NotFound.tsx # Notfound hata sayfası
 ├── services/
 │ ├── api.ts # Axios instance ve interceptor
 │ └── PhotoService/
@@ -54,6 +55,7 @@ src/
 - `PhotoSlider`: Butonlar, mod değişimi, görsel yüklenmesi
 - `LoadingOutlet`: Yüklenme ekranının doğru gösterilmesi
 - `Home`: Doğru bileşenlerin koşullu render edilmesi
+- `NotFound`: Olmayan bir sayfaya gidilmesi 
 - `photoService`: API isteklerinin mock ile test edilmesi
 
 ## 🚀 Kurulum ve Çalıştırma
